@@ -1,4 +1,4 @@
-ul {
+ul>li {
   list-style-type:none;
 }
 
@@ -48,4 +48,19 @@ article > header h1 {
 
 article > header h2 {
   font-size: 15px;
+}
+
+
+
+/**
+* ajut de Pawel
+*/
+.mainSection {
+  display: flex;
+  flex-direction: row;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
