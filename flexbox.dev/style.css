@@ -14,20 +14,8 @@ body > header h1 {
 
 
 /* ==================================
-* navigations of page
+* global settings
 ===================================== */
-ul {
-  padding-left: 0px;
-}
-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-ul>li {
-  list-style-type:none;
-}
-
 article, figure, section, aside, body > header {
   outline: solid 1px;
 }
@@ -74,6 +62,25 @@ article > header h1 {
 article > header h2 {
   font-size: 15px;
 }
+
+
+
+
+/* ==================================
+* navigations of page
+===================================== */
+ul {
+  padding-left: 0px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul>li {
+  list-style-type:none;
+}
+
 
 
 
